@@ -2,7 +2,7 @@
 
 Inspired by:
 
-https://rajshekhar26.github.io/cleanfolio
+https://github.com/rajshekhar26/cleanfolio-minimal
 
 
 ## License
