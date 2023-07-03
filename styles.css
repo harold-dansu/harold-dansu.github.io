@@ -99,6 +99,29 @@ button {
 }
 
 /*===================
+  h3 header
+===================*/
+.h3:hover {
+  color: var(--clr-primary);
+}
+
+.h3::before {
+  content: "";
+  display: inline;
+  width: 0%;
+  height: 0.2em;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--clr-primary);
+  transition: width 0.2s ease-in;
+}
+
+.h3:hover::before,
+.h3:focus::before {
+  width: 100%;
+}
+
+/*===================
   buttons and links
 ===================*/
 
