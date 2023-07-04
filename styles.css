@@ -117,9 +117,6 @@ button {
 }
 
 .h3:hover::before,
-.h3:focus::before {
-  width: 100%;
-}
 
 /*===================
   buttons and links
